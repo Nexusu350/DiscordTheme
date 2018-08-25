@@ -1,12 +1,12 @@
-/*---------------------------------------------------------------------------------------------------------------------------------------------
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
 ============== CUSTOMIZABLE COLORS ===============
 */
 :root {
-	--main-color: #00eaff;
-	--hover-color: #af11a78e;
-	--hover-color-2: #af11a78e;
+	--main-color:#ff0000;
+	--hover-color: #0000ff;
     --background-blur: 0px;
-    --background-brightness: 100%;
+    --background-brightness: 200%;
 }
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -30,6 +30,7 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
+    background-image: url(https://i.imgur.com/ca77BXE.jpg) !important; 
     height: 720px !important;
 /* IMPORTANT: Link must be HTTPS! */
 }
@@ -47,7 +48,7 @@ Server List
 }
 
 .unread-23Kvxk {
-	background-color: var(--hover-color);
+	background-color: var(--main-color);
 }
 
 .container-iksrDt {
