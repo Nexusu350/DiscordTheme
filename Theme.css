@@ -1,20 +1,84 @@
+//META{"name":"NotAnotherAnimeThemeSCSL","description":"Anime theme made by puckzxz#2080, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080","version":"1.0"}*//{}
+@import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/scsl.css);
 
-/*
----------------------------------------------------------------------------------------------------------------------------------------------
-========= CUSTOMIZABLE BACKGROUND IMAGE ==========
-*/
-body::after,
-.callout-backdrop,
-.user-popout::before,
-#user-profile-modal .header::before,
-#pubs-container::before,
-.auth-background,
-.auth-tiling-bg,
-.invite-modal .invite-splash,
-.radio-theme.light label,
-.radio-theme.dark label{
-    background-image: url(https://i.imgur.com/ca77BXE.jpg) !important; 
-    height: 720px !important;
-/* IMPORTANT: Link must be HTTPS! */
+/*To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ */
+
+
+/*Any images you use MUST end with .jpg or .png or any other image extension*/
+/*This is NOT a valid link, https://imgur.com/a/ycjL2 */
+/*THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
+/*Usually you can just right click your image and then click "Copy image address" and that should give you the direct link to the image*/
+
+
+/* For all images I recommend using imgur to host your image */
+
+
+/* Edit this to change your background */
+/* Change the URL to whatever image you want */
+[class~=app] {
+    background: url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important; /* The URL of the background image you want */
+    background-size: cover !important; /* No need to edit this */
 }
-/*
+
+
+/* Edit this to change your friends icon picture */
+/* If you don't want a custom friends icon just delete this small section of code */
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg); /* The URL of the friends icon image you want */
+    background-position: top left; /* This is the section of the image that you want to use, for exmaple this is using the top left of the image, you would probably want to change this to center or top center */
+    background-repeat: no-repeat; /* No need to edit this */
+    background-size: 230%; /* This is how zoomed in your image will be, change this back to 100% and increase or decrease as needed */
+    height: 50px; /* No need to edit this */
+    width: 50px; /* No need to edit this */
+}
+
+
+/* Edit this to change the color and weight of the text */
+.theme-dark .message-group .comment .markup {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/* Edit this to change some features of your text */
+.message-group .comment .markup {
+    font-size: 0.9375rem; /* Font size, default is 0.9375rem, I wouldn't go below 0.8 or above 1.4 */
+    line-height: 1.1em; /* Spacing between the text, I wouldn't recommend changing this but if you do don't go above 1.4 or below 0.6 */
+    margin-top: 6px; /* This is the margin between each new message, safer to change than line-height.  6px is default. Don't go below 0 */ 
+    white-space: pre-wrap; /* No need to edit this */
+    word-wrap: break-word; /* No need to edit this */
+}
+
+
+
+/* Edit this to change the color of a selected text or voice join */
+.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color: #f6f6f7 !important;
+}
+/* Edit this to change the color when you hover over a text channel */
+.nameHoveredText-1uO31y {
+    color: #b9bbbe !important;
+}
+/* Edit this to change the color when you hover over a voice channel */
+.nameHoveredVoice-YJ1Vfd {
+    color: #f6f6f7 !important;
+}
+/* Edit this to change the color of an unread text channel color */
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+    color: #dcddde;
+}
+
+
+
+/* Edit this to change the color of your scrollbar,  */
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+
+/* ADD CODE BELOW TO CUSTOMIZE THE THEME */
+
+
+
+
